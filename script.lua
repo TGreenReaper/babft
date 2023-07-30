@@ -1,23 +1,16 @@
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
-
+-- stop looking at the source code-- 
 local ScreenGui = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
 local TextButton = Instance.new("TextButton")
 local Tab = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
-local TextButton_2 = Instance.new("TextButton")
-local TextButton_3 = Instance.new("TextButton")
 local Autofarm = Instance.new("Frame")
 local TextLabel_2 = Instance.new("TextLabel")
+local TextButton_2 = Instance.new("TextButton")
+local Autobuy = Instance.new("Frame")
+local TextButton_3 = Instance.new("TextButton")
 local TextButton_4 = Instance.new("TextButton")
 local TextButton_5 = Instance.new("TextButton")
-local Autobuy = Instance.new("Frame")
-local TextButton_6 = Instance.new("TextButton")
-local TextButton_7 = Instance.new("TextButton")
-local TextButton_8 = Instance.new("TextButton")
 
 --Properties:
 
@@ -62,28 +55,6 @@ TextLabel.Text = "Main"
 TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.TextSize = 18.000
 
-TextButton_2.Parent = Tab
-TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
-TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_2.BorderSizePixel = 0
-TextButton_2.Position = UDim2.new(0, 0, -0.172918081, 0)
-TextButton_2.Size = UDim2.new(0, 61, 0, 27)
-TextButton_2.Font = Enum.Font.SourceSans
-TextButton_2.Text = "Autofarm"
-TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_2.TextSize = 14.000
-
-TextButton_3.Parent = Tab
-TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
-TextButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_3.BorderSizePixel = 0
-TextButton_3.Position = UDim2.new(0.173423409, 0, -0.169491529, 0)
-TextButton_3.Size = UDim2.new(0, 61, 0, 27)
-TextButton_3.Font = Enum.Font.SourceSans
-TextButton_3.Text = "Auto Buy"
-TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_3.TextSize = 14.000
-
 Autofarm.Name = "Autofarm"
 Autofarm.Parent = Main
 Autofarm.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -105,27 +76,16 @@ TextLabel_2.Text = "AutoFarm"
 TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 0)
 TextLabel_2.TextSize = 18.000
 
-TextButton_4.Parent = Autofarm
-TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
-TextButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_4.BorderSizePixel = 0
-TextButton_4.Position = UDim2.new(0.418918908, 0, 0.23829788, 0)
-TextButton_4.Size = UDim2.new(0, 72, 0, 44)
-TextButton_4.Font = Enum.Font.SourceSans
-TextButton_4.Text = "Start"
-TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_4.TextSize = 16.000
-
-TextButton_5.Parent = Autofarm
-TextButton_5.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
-TextButton_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_5.BorderSizePixel = 0
-TextButton_5.Position = UDim2.new(0, 0, -0.169491529, 0)
-TextButton_5.Size = UDim2.new(0, 61, 0, 27)
-TextButton_5.Font = Enum.Font.SourceSans
-TextButton_5.Text = "Main"
-TextButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_5.TextSize = 14.000
+TextButton_2.Parent = Autofarm
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Position = UDim2.new(0.418918908, 0, 0.23829788, 0)
+TextButton_2.Size = UDim2.new(0, 72, 0, 44)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "Start"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 16.000
 
 Autobuy.Name = "Autobuy"
 Autobuy.Parent = Main
@@ -136,63 +96,43 @@ Autobuy.Position = UDim2.new(0, 0, 0.187725633, 0)
 Autobuy.Size = UDim2.new(0, 444, 0, 223)
 Autobuy.Visible = false
 
-TextButton_6.Parent = Autobuy
-TextButton_6.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
-TextButton_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_6.BorderSizePixel = 0
-TextButton_6.Position = UDim2.new(0.252252251, 0, 0.170403585, 0)
-TextButton_6.Size = UDim2.new(0, 200, 0, 50)
-TextButton_6.Font = Enum.Font.SourceSans
-TextButton_6.Text = "Auto Common Chest"
-TextButton_6.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_6.TextSize = 14.000
+TextButton_3.Parent = Autobuy
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+TextButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.BorderSizePixel = 0
+TextButton_3.Position = UDim2.new(0.252252251, 0, 0.170403585, 0)
+TextButton_3.Size = UDim2.new(0, 200, 0, 50)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "Auto Common Chest"
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextSize = 14.000
 
-TextButton_7.Parent = Main
-TextButton_7.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
-TextButton_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_7.BorderSizePixel = 0
-TextButton_7.Position = UDim2.new(0.207207218, 0, 0, 0)
-TextButton_7.Size = UDim2.new(0, 61, 0, 27)
-TextButton_7.Font = Enum.Font.SourceSans
-TextButton_7.Text = "Autofarm"
-TextButton_7.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_7.TextSize = 14.000
+TextButton_4.Parent = Main
+TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+TextButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.BorderSizePixel = 0
+TextButton_4.Position = UDim2.new(0.207207218, 0, 0, 0)
+TextButton_4.Size = UDim2.new(0, 61, 0, 27)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = "Autofarm"
+TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.TextSize = 14.000
 
-TextButton_8.Parent = Main
-TextButton_8.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
-TextButton_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_8.BorderSizePixel = 0
-TextButton_8.Position = UDim2.new(0.0270270407, 0, 0, 0)
-TextButton_8.Size = UDim2.new(0, 61, 0, 27)
-TextButton_8.Font = Enum.Font.SourceSans
-TextButton_8.Text = "Main"
-TextButton_8.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_8.TextSize = 14.000
+TextButton_5.Parent = Main
+TextButton_5.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+TextButton_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.BorderSizePixel = 0
+TextButton_5.Position = UDim2.new(0.0270270407, 0, 0, 0)
+TextButton_5.Size = UDim2.new(0, 61, 0, 27)
+TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.Text = "Main"
+TextButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.TextSize = 14.000
 
 -- Scripts:
 
-local function CDHIIG_fake_script() -- TextButton_2.LocalScript 
+local function MXBKBKY_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
-
-	script.Parent.MouseButton1Up:Connect(function()
-		script.Parent.Parent.Visible = false
-		script.Parent.Parent.Parent.Autobuy.Visible = false
-		script.Parent.Parent.Parent.Autofarm.Visible = true
-		
-	end)
-end
-coroutine.wrap(CDHIIG_fake_script)()
-local function SDUM_fake_script() -- TextButton_3.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_3)
-
-	script.Parent.MouseButton1Up:Connect(function()
-		script.Parent.Parent.Visible = false
-		script.Parent.Parent.Parent.Autobuy.Visible = true
-	end)
-end
-coroutine.wrap(SDUM_fake_script)()
-local function OHWN_fake_script() -- TextButton_4.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_4)
 
 	local toggle_autofarm = false
 	
@@ -250,18 +190,9 @@ local function OHWN_fake_script() -- TextButton_4.LocalScript
 		end
 	end)
 end
-coroutine.wrap(OHWN_fake_script)()
-local function QWSSBE_fake_script() -- TextButton_5.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_5)
-
-	script.Parent.MouseButton1Up:Connect(function()
-		script.Parent.Parent.Visible = false
-		script.Parent.Parent.Parent.Tab.Visible = true
-	end)
-end
-coroutine.wrap(QWSSBE_fake_script)()
-local function IHTZAN_fake_script() -- TextButton_6.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_6)
+coroutine.wrap(MXBKBKY_fake_script)()
+local function FIRTROD_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
 
 	local tog = false
 	
@@ -288,13 +219,28 @@ local function IHTZAN_fake_script() -- TextButton_6.LocalScript
 	
 	
 end
-coroutine.wrap(IHTZAN_fake_script)()
-local function XHVSXJ_fake_script() -- TextButton_8.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_8)
+coroutine.wrap(FIRTROD_fake_script)()
+local function WDKDMCY_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
 
 	script.Parent.MouseButton1Up:Connect(function()
-		script.Parent.Parent.Tab.Visible = true
-		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Main.Autofarm.Visible = true
+		script.Parent.Parent.Parent.Main.Tab.Visible = false
+		script.Parent.Parent.Parent.Main.Autobuy.Visible = false
+	
 	end)
+	
 end
-coroutine.wrap(XHVSXJ_fake_script)()
+coroutine.wrap(WDKDMCY_fake_script)()
+local function XQBZ_fake_script() -- TextButton_5.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_5)
+
+	script.Parent.MouseButton1Up:Connect(function()
+		script.Parent.Parent.Parent.Main.Tab.Visible = true
+		script.Parent.Parent.Parent.Main.Autofarm.Visible = false
+		script.Parent.Parent.Parent.Main.Autobuy.Visible = false
+	
+	end)
+	
+end
+coroutine.wrap(XQBZ_fake_script)()
